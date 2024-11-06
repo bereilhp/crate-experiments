@@ -1,0 +1,17 @@
+{
+  "name": "crate-experiments",
+  "version": "1.0.0",
+  "description": "This repository contains experiments and tutorials for learning CrateDB with Node.js. It includes sample code and scripts for connecting to a CrateDB instance, running queries, and exploring CrateDB’s unique features, such as distributed SQL capabilities and real-time analytics.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "node-crate": "node connections/node-crate.js",
+    "pg": "node connections/pg.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "node-crate": "^3.0.0",
+    "pg": "^8.13.1"
+  }
+}
